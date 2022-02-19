@@ -1,0 +1,293 @@
+.book-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fa;
+  min-height: 150vh;
+}
+@media screen and (max-width: 768px) {
+  .book-details-container {
+    display: none;
+  }
+}
+.book-details-container-small {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .book-details-container-small {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f7fa;
+    min-height: 120vh;
+  }
+}
+.book-details-preface {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.book-details-sub-container {
+  height: 726px;
+  max-width: 1140px;
+  width: 80%;
+  background-color: white;
+  border-radius: 16px;
+}
+.book-details-preface-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 64px;
+}
+.loader-book-detailed {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.book-details-preface {
+  display: flex;
+  flex-direction: row;
+}
+.book-details-cover-pic {
+  height: 274px;
+  width: 235px;
+  border-radius: 14.130910873413086px;
+}
+.book-details-preface-content {
+  margin-left: 48px;
+}
+.book-details-preface-content-title {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+}
+.book-details-preface-content-authorname {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 12px;
+  text-align: left;
+  color: #475569;
+}
+.avg-rating-heading-detailed {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+}
+.booksitem-container-rating-icon {
+  height: 24px;
+  width: 24px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 2px;
+  color: #fbbf24;
+}
+.booksitem-container-rating-mainrating {
+  font-family: HK Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #334155;
+}
+.detailed-status-heading {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.detailed-real-status-heading {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 8px;
+  color: #0284c7;
+}
+.book-details-hr {
+  width: 90%;
+  margin-top: 32px;
+}
+.about-container {
+  width: 90%;
+  margin: auto;
+}
+.about-container-heading {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+}
+.about-container-content {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+}
+.failure-view-detailed-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.failure-view-detailed-view-image-heading {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #475569;
+}
+.failure-view-detailed-view-image-button {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  height: 48px;
+  color: white;
+  width: 112px;
+  border-radius: 12px;
+  padding: 12px, 24px, 12px, 24px;
+  background-color: #0284c7;
+  border: none;
+}
+.book-details-preface-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book-details-preface-content-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book-details-cover-pic-small {
+  height: 274px;
+  width: 235px;
+  border-radius: 12px;
+}
+.book-details-preface-content-title-small {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+}
+.book-details-preface-content-authorname-small {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+}
+.avg-rating-heading-detailed-small {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+}
+.booksitem-container-rating-icon-small {
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 2px;
+  color: #fbbf24;
+}
+.booksitem-container-rating-mainrating-small {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #334155;
+}
+.detailed-status-heading-small {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+}
+.detailed-real-status-heading-small {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin-left: 8px;
+  color: #0284c7;
+  align-content: center;
+}
+.about-container-heading-small {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+}
+.about-container-content-small {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+}

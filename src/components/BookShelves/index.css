@@ -1,0 +1,218 @@
+.bookshelves-bg-container {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+}
+.bookshelves-parent-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7fa;
+}
+@media screen and (max-width: 955px) {
+  .bookshelves-parent-container {
+    display: none;
+  }
+}
+.bookshelves-parent-container-small {
+  display: none;
+}
+@media screen and (max-width: 955px) {
+  .bookshelves-parent-container-small {
+    display: flex;
+    display: block;
+    flex-direction: column;
+    background-color: #f5f7fa;
+  }
+}
+
+.bookshelves-menu-container {
+  width: 256px;
+  background-color: white;
+  margin-left: 150px;
+  padding-left: 32px;
+  padding-top: 32px;
+}
+.bookshelves-menu-containe-heading {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bookshelves-menu-ul {
+  padding: 0;
+  list-style-type: none;
+}
+.bookshelves-main-container {
+  margin-left: 32px;
+  width: 100%;
+}
+.bookshelves-main-container-search-contaiener-heading {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.bookshelves-main-container-search-contaiener {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.search-container {
+  align-self: center;
+  margin-right: 150px;
+  border-radius: 4px;
+}
+.search-container-real {
+  height: 36.000999450683594px;
+  width: 264px;
+  left: 0px;
+  padding-left: 16px;
+  top: 0px;
+  outline: none;
+  border: 1px solid #cbd5e1;
+}
+.search-button {
+  height: 36px;
+  width: 52px;
+  left: 1237px;
+  border: none;
+}
+.loader-bookshelves {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  margin: auto;
+}
+.render-all-books-ul {
+  padding: 0;
+  list-style-type: none;
+  margin-top: 31px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.nothing-to-show-container-content {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.nothing-to-show-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+}
+@media screen and (max-width: 630px) {
+  .nothing-to-show-container {
+    display: none;
+  }
+}
+.nothing-to-show-container-small {
+  display: none;
+}
+@media screen and (max-width: 630px) {
+  .nothing-to-show-container-small {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+  }
+}
+.nothing-too-show-pic-small {
+  height: 176.01654052734375px;
+  width: 257.0172424316406px;
+  border-radius: 0px;
+}
+.nothing-to-show-container-content-small {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #475569;
+}
+
+.failure-view-all-books-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+.failure-view-all-books-view-image {
+  max-height: 230.00112915039062px;
+  max-width: 469.000244140625px;
+  width: 40%;
+  left: 689px;
+  top: 366px;
+  border-radius: 0px;
+}
+.failure-view-all-books-view-image-heading {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #475569;
+}
+.failure-view-all-books-view-image-button {
+  height: 48px;
+  width: 112px;
+  border-radius: 12px;
+  padding: 12px, 24px, 12px, 24px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  background-color: #0284c7;
+  border: none;
+  color: white;
+}
+.bookshelves-bg-container-small {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+.search-container-small {
+  margin-top: 24px;
+}
+
+.bookshelves-menu-ul-small {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.bookshelves-main-container-main {
+  width: 100%;
+}

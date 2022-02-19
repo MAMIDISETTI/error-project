@@ -1,0 +1,51 @@
+.change-selected-value-button {
+  border: none;
+  background-color: transparent;
+  font-family: Inter;
+  padding: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.bookmenu-li {
+  margin-top: 16px;
+}
+@media screen and (max-width: 955px) {
+  .bookmenu-li {
+    display: none;
+  }
+}
+.extra-active-class {
+  color: #0284c7;
+}
+.bookmenu-li-small {
+  display: none;
+}
+@media screen and (max-width: 955px) {
+  .bookmenu-li-small {
+    display: block;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+}
+.change-selected-value-button-small {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  background-color: transparent;
+  height: 24px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.extra-active-class-small {
+  border: none;
+  background-color: #0284c7;
+  color: white;
+}
